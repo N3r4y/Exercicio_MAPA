@@ -22,7 +22,7 @@ def insert(books):
         print(f'\nInserindo novo cadastro...')
     else:
         print(f'\n\033[31mSistema de cadastro lotado. Não é possível armazenar mais informações!\033[m')
-    sleep(2)
+    sleep(1)
 
 
 # Função para mostrar a lista de livros cadastrados na tela.
